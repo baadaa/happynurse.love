@@ -178,25 +178,7 @@ module.exports = {
     font: "poppins",
   },
   plugins: [
-    // Make sure this plugin is first in the array of plugins
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-111111111-1",
-        head: true,
-      },
-    },
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sitemap`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
-    `gatsby-plugin-image`,
-    `gatsby-plugin-sharp`,
     `gatsby-plugin-less`,
     {
       resolve: `gatsby-plugin-google-fonts`,
