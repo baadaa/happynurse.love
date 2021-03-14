@@ -1,7 +1,6 @@
 import React from "react"
 import { SocialIcon } from "react-social-icons"
 import { useStaticQuery, graphql } from "gatsby"
-import { StaticImage } from 'gatsby-plugin-image';
 
 const Profile = props => {
   const data = useStaticQuery(graphql`
@@ -32,13 +31,11 @@ const Profile = props => {
   ))
   return (
     <>
-      <StaticImage
-        src="../images/profile.png"
+      <img src="/profile.jpg" 
+        loading="lazy" 
+        style={{ borderRadius: '300px'}}
         width={180}
         height={180}
-        quality={90}
-        placeholder="blurred"
-        formats={['AUTO', 'WEBP', 'AVIF']}
         alt={props.name}
       />
       <div id="profile-info-wrapper">
