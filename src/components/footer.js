@@ -6,14 +6,14 @@ const Footer = props => {
       <div className="row">
         <div className="column">
           <p id="cp">&copy; {props.name}</p>
-          <p id="by-gatsby">
-            Proudly made with{" "}
+          <p id="by-gatsby" style={{opacity: .5}}>
+            Built with love by{" "}
             <a
               target="_blank"
               rel="noreferrer noopener"
-              href="https://gatsbyjs.com"
+              href="https://bald.design"
             >
-              Gatsby
+              B
             </a>
           </p>
         </div>

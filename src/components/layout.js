@@ -34,6 +34,7 @@ const Layout = props => {
           {props.pageTitle} - {data.site.siteMetadata.name || ""}
         </title>
         <meta name="description" content={props.pageDescription || ""} />
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon.png" />
       </Helmet>
 
       <div

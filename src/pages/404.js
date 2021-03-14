@@ -1,13 +1,7 @@
-import React from "react"
-import Layout from "../components/layout"
+import { navigate } from 'gatsby';
 
 export default props => {
-  return (
-    <Layout pageTitle="Page Not Found!" pageDescription="">
-      <p>Ooops! Wrong turn!</p>
-      <p>
-        Head back to the <a href="/">Home</a> page
-      </p>
-    </Layout>
-  )
+  if (typeof window === 'undefined') return null;
+  navigate('/');
+  return null;
 }

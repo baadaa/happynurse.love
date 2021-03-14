@@ -1,138 +1,181 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    siteUrl: `https://gatsby-starter-clean-resume.netlify.com/`,
-    name: `Luke Skywalker`,
-    role: `Software Developer`,
-    email: `luke@thelightside.com`,
+    siteUrl: `https://happynurse.love`,
+    name: `Young-Mi Park`,
+    role: `BSN, MSN, RN, CPN`,
+    email: `happy.nurse.park@gmail.com`,
     socialMedia: [
-      {
-        name: "github",
-        link: "https://github.com/masoudkarimif/gatsby-starter-clean-resume",
-      },
+      // {
+      //   name: "github",
+      //   link: "https://github.com/masoudkarimif/gatsby-starter-clean-resume",
+      // },
       { name: "linkedin", link: "https://linkedin.com" },
-      { name: "facebook", link: "https://facebook.com" },
-      { name: "twitter", link: "https://twitter.com" },
-      { name: "instagram", link: "https://instagram.com" },
+      // { name: "facebook", link: "https://facebook.com" },
+      // { name: "twitter", link: "https://twitter.com" },
+      // { name: "instagram", link: "https://instagram.com" },
     ],
     about: `
-      <p>The son of Jedi Knight Anakin Skywalker and Senator Padmé Amidala,
-      Luke Skywalker was born along with his twin sister Leia in 19 BBY.
-      As a result of Amidala's death and Anakin's fall to the dark side of the Force,
-      the Skywalker children were separated and sent into hiding,
-      with Leia adopted by the royal family of Alderaan while Luke was raised by his relatives on Tatooine.
-      Longing for a life of adventure and purpose,
-      Skywalker joined the Rebellion and began learning the ways of the Force under the guidance of Jedi Master Obi-Wan Kenobi,
-      whose first apprentice was Luke's own father.
-      During the Battle of Yavin in 0 BBY, Skywalker saved the Alliance from annihilation by destroying the Empire's planet-killing superweapon,
-      the Death Star. He continued his training in the years that followed,
-      determined to become a Jedi Knight like his father before him,
-      and found a new mentor in Grand Master Yoda. After his master's death,
-      Skywalker participated in the Battle of Endor in 4 ABY,
-      during which he confronted the Sith Lord Darth Vader,
-      whom he learned was in fact his father, Anakin Skywalker.
-      With Luke's help, Anakin returned to the light side of the Force by destroying the Emperor at the cost of his own life,
-      fulfilling his destiny as the Chosen One. You can find more information <a href="https://starwars.fandom.com/wiki/Luke_Skywalker" target="_blank" rel="noopener noreferrer">here</a>.</p>
-      <p>See the PDF version of my resume <a href="#">here</a>.</p>
-      <p>As you can see, it's possible to add HTML tags in your about page.</p>
+      <p>Deeply committed to providing quality compassionate patient care. Background includes pediatric, labor and delivery, OBGYN, infertility in a hospital and rehabilitation setting. Expertise in charting, assessment, and wound care. Proficient in patient education, medication/treatment administration. Detail-oriented, observant, and proactive.</p>
+      <hr style="margin: 2rem 0;" />
+      <p>
+      A team player at heart with an independent spirit, I am effective both working independently and collaboratively in a given team. Known for a strong work ethic and attention to detail, I have maintained excellent relationships with patients and their family members, as well as colleagues and medical staff. Bringing solid work experience and proven track record of professionalism with an uncompromising focus on patients to any organization. Keeping a passion for learning and training for continued growth, always seeking further education</p>
+      <hr style="margin: 2rem 0;" />
+      <p>See the PDF version of my resume <a href="/young-mi-park_resume.pdf">here</a>.</p>
       `,
     education: [
       {
-        degree: "Ph.D.",
-        major: "Computer Science",
-        when: "2014-2018",
-        school: "Harvard University",
-        where: "Cambridge, MA",
-        moreInfo: `<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        See my thesis <a href="#">here</a>.</p>`,
+        degree: "Master of Science",
+        major: "Nursing",
+        when: "2012",
+        school: "Lehman College",
+        where: "Bronx, NY",
+        moreInfo: ``,
       },
       {
-        degree: "M.Sc.",
-        major: "Software Engineering",
-        when: "2012-2014",
-        school: "Stanford University",
-        where: "Stanford, CA",
-        moreInfo: `"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."`,
+        degree: "Bachelor of Science.",
+        major: "Nursing",
+        when: "2009",
+        school: "Lehman College",
+        where: "Bronx, NY",
+        moreInfo: ``,
       },
       {
-        degree: "B.Sc.",
-        major: "Computer Engineering",
-        when: "2008-2012",
-        school: "UCLA",
-        where: "Los Angeles, CA",
-        moreInfo: `<p>I finally found out how it feels like to live in LA; it was awesome!</p>`,
-      },
-      {
-        degree: "High School Diploma",
-        when: "2000-2008",
-        school: "Awesome High School",
-        where: "Los Angeles, CA",
+        degree: "Associate's Degree",
+        major: "Nursing",
+        when: "2002",
+        school: "Kyung Hee University",
+        where: "Seoul, South Korea",
+        moreInfo: ``,
       },
     ],
     experience: [
       {
-        role: "Software Developer",
-        when: "2014-Present",
-        company: "Facebook",
-        where: "Menlo Park, CA",
-        moreInfo: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+        role: "Nursing Supervisor",
+        when: "2017-Present",
+        company: "Sunshine Children's Home & Rehab Center",
+        where: "Ossining, NY",
+        moreInfo: `Responsible for maintaining personnel operations including performance appraisals, time clock reports, and PTO requests.
+        Coordinate required trainings and maintain the staff competencies. 
+        Ensure the practice compliance with policy and procedure.
+        Communicate with family and multiplinary team members for quality care, provide strong assessment skills, and respond to emergency situations.
+        `,
       },
       {
-        role: "Web Developer",
-        when: "2010-2014",
-        company: "Amazon",
-        where: "Vancouver, BC",
-        moreInfo: `See my <a href="#" target="_blank" rel="noopener noreferrer">work</a>.`,
+        role: "Staff RN",
+        when: "2012-2017",
+        company: "Sunshine Children's Home & Rehab Center",
+        where: "Ossining, NY",
+        moreInfo: `Provide high quality care to critical patients with a ventilator.
+        Assess change in condition, and report promptly to medical staff.
+        Administer medication via GJ or IV 
+        Provide family education and participate in care plan meetings.
+        Provide wound care dressing as well as central line and Mediport care.
+        Train newly hired nurses as a preceptor.`,
+      },
+      {
+        role: "Staff RN",
+        when: "2011-2012",
+        company: "King’s County Hospital (Labor & Delivery Unit)",
+        where: "Brooklyn, NY",
+        moreInfo: `Provide care for patients requiring fetal assessment and/or fetal monitoring 
+        Assist physicians during delivery, treatment, examination, and surgical procedures
+        Record and communicate patient condition as appropriate utilizing computerized documentation system 
+        Assess and discuss pain management 
+        Assist anesthesiologist for epidural procedures.`,
+      },
+      {
+        role: "Staff RN",
+        when: "2010-2011",
+        company: "Sunshine Children's Home & Rehab Center (Pediatric Rehabilitation Unit)",
+        where: "Ossining, NY",
+        moreInfo: `Provide tracheostomy and G-tube care 
+        Monitor seizure activity and provide comfort care
+        Provide culturally appropriate care
+        Provide central line care and monitor patient with TPN
+        Provide ileostomy care and assessment.  `,
+      },
+      {
+        role: "Staff RN",
+        when: "2009-2010",
+        company: "Northwoods Health Systems (Pediatric Rehabilitation Unit)",
+        where: "Albany, NY",
+        moreInfo: `Manage and care for ventilated patients
+        Provide specialized care for ventilated patients: including ventilator monitoring, opened- and closed-suctioning, and lung sound assessment.`,
+      },
+      {
+        role: "Staff RN",
+        when: "2005-2007",
+        company: "Maria Infertility Hospital ((Women’s Health & Infertility Unit)",
+        where: "Seoul, South Korea",
+        moreInfo: `Help prepare patients for treatment and fertility procedures 
+        Educate patients on medications, treatments, and IVF procedures 
+        Perform infertility diagnostic tests on patients
+        Handle patient questions both in person and over the phone`,
+      },
+      {
+        role: "Staff RN",
+        when: "2002-2004",
+        company: "CHA University School of Medicine, CHA General Hospital",
+        where: "Pocheon, South Korea",
+        moreInfo: `Provide pre-/post-operation care 
+        Monitor bleeding and infection signs after NSVD, C/S, D&E, D&C. 
+        Assess fetal heart tones, monitor contractions, and pain management
+        Provide IV chemotherapy and emotional support`,
       },
     ],
     skills: [
       {
-        name: "JavaScript",
-        level: "85",
-        experience: "5 years",
-      },
-      {
-        name: "Python",
-        level: "75",
-        experience: "2 years",
-      },
-      {
-        name: "Java",
-        level: "65",
-        experience: "2 years",
-      },
-      {
-        name: "React",
-        level: "75",
-        experience: "1 years",
-      },
-      {
-        name: "Linux",
-        level: "75",
+        name: "Personnel operations",
+        level: "87",
         experience: "4 years",
       },
       {
-        name: "C++",
-        level: "40",
-        experience: "1 years",
+        name: "Supervision & management",
+        level: "85",
+        experience: "4 years",
+      },
+      {
+        name: "Patient education",
+        level: "90",
+        experience: "15 years",
+      },
+      {
+        name: "Charting, assessment & treatment",
+        level: "90",
+        experience: "15 years",
+      },
+      {
+        name: "Wound care",
+        level: "85",
+        experience: "10 years",
+      },
+      {
+        name: "Specialized care for ventilated patients",
+        level: "80",
+        experience: "7 years",
+      },
+      {
+        name: "Pediatric care",
+        level: "90",
+        experience: "11 years",
+      },
+      {
+        name: "Labor/delivery, infertility & OBGYN",
+        level: "85",
+        experience: "4 years",
       },
     ],
-    interests: [
-      "Reading",
-      "Programming",
-      "Playing the violin",
-      "Running",
-      "Watching Monty Python and the Holy Grail",
+    credentials: [
+      "Wound Care Certification (2018)",
+      "Certified Pediatric Nurse (2016)",
+      "Registered Nurse, State of New York",
+      "Registered Nurse, South Korea",
     ],
     //available_themes: ["great-gatsby", "master-yoda", "wonder-woman", "darth-vader", "luke-lightsaber"],
-    theme: "great-gatsby",
-    //fonts. Available: [default, programmer]
-    font: "default",
+    theme: "wonder-woman",
+    //fonts. Available: [default, programmer, poppins]
+    font: "poppins",
   },
   plugins: [
     // Make sure this plugin is first in the array of plugins
@@ -145,12 +188,22 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
-		`gatsby-plugin-less`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-less`,
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-            `IBM Plex Mono`,
+          `IBM Plex Mono`,
+          `Poppins\:,400,600`
         ],
 				display: 'swap'
       },
